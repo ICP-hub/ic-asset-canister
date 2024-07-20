@@ -38,6 +38,13 @@ dfx deploy
 ```bash
 # To test image uploading
 ./test_script.sh
+
+# To get image via URL
+# TO ACCESS IMAGE
+# replace fhj5a-wmaaa-aaaaa-qaa2q-cai with ic_asset_ccanister canister id
+# http://bkyz2-fmaaa-aaaaa-qaaaq-cai.localhost:4943/f/1
+
+# REPLACE 1 WITH YOUR IMAGE ID
 ```
 
 Once the job completes, your application will be available at `http://localhost:4943?canisterId={asset_canister_id}`.
